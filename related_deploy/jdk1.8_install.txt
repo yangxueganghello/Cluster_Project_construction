@@ -1,0 +1,9 @@
+reference address:
+https://www.cnblogs.com/xqzt/p/4934451.html
+
+
+
+
+Linux下安装jdk1.8查看版本的时候报出 ?-bash: /usr/local/java/jdk1.8.0_144/bin/java: /lib/ld-linux.so.2: bad ELF interpreter: No such file?
+安装的jdk1.7没有错 ? 上网查了下 ? 
+使用命令?sudo yum install glibc.i686 安装之后就好了

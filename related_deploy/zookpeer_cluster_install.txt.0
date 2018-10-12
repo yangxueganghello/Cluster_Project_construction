@@ -1,0 +1,57 @@
+reference address:
+https://blog.csdn.net/csdn2193714269/article/details/70291800
+
+
+
+主机IP
+  消息端口
+  通信端口
+  节点目录/usr/local/下
+
+
+
+ 
+one     2181
+      2888:3888
+  zookeeper
+
+
+  
+five    2181
+      2888:3888
+  zookeeper
+
+
+  
+six     2181
+      2888:3888
+  zookeeper
+
+
+
+
+
+
+
+
+https://www.cnblogs.com/rwxwsblog/p/5806075.html
+
+
+
+
+general install tutor
+
+https://blog.csdn.net/pucao_cug/article/details/72228973
+
+如果设置开机启动  请参考http://blog.csdn.net/pucao_cug/article/details/71240246
+
+
+
+
+常用命令；
+zkServer.sh start
+zkServer.sh status
+zkServer.sh restart
+zkServer.sh restart
+
+zkCli.sh -server c1:2181
