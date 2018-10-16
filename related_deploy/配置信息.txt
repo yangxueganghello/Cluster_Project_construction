@@ -71,7 +71,7 @@ Zookeeper:one,five,six			zkServer.sh start
 
 
 
-
+dubbo	one	tomcat_dubbo   http://192.168.177.128:808
 
 
 

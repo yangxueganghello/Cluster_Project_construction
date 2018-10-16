@@ -1,0 +1,14 @@
+
+
+
+
+
+
+ÃÜÂë£ºRoot_123
+.
+
+
+
+
+
+/etc/init.d/mysql restart
