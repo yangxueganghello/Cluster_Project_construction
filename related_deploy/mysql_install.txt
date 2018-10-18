@@ -12,3 +12,7 @@
 
 
 /etc/init.d/mysql restart
+
+
+
+https://www.cnblogs.com/wpjamer/p/7057577.html

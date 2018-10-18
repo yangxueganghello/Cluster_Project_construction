@@ -70,12 +70,44 @@ activeMQ:two,three,four
 Zookeeper:one,five,six			zkServer.sh start 
 
 
+dubbo管控台：
+dubbo	one      tomcat_dubbo   http://192.168.177.128:8088						
 
-dubbo	one	tomcat_dubbo   http://192.168.177.128:808
+消息管理子系统：
+roncoo-pay-web-message		http://192.168.177.128:8089/roncoo-pay-web-message/
+
+运营系统：
+roncoo-pay-web-boss		http://192.168.177.128:8090/roncoo-pay-web-boss/
+
+支付网关：
+roncoo-pay-web-gateway		http://192.168.177.128:8091/roncoo-pay-web-gateway/
+
+
+商户平台：
+roncoo-pay-web-sample-shop	http://192.168.177.128:8092/roncoo-pay-web-sample-shop/
 
 
 
+activeMQ cluster:
 
+node-01			http://192.168.177.129:8161/
+
+node-02			http://192.168.177.132:8162/
+
+node-03			http://192.168.177.131:8163/
+
+
+
+tomcat配置
+dubbo:				serverport=8005   connector_port_HTTP/1.1=8085    connector_port_AJP/1.3=8009
+
+roncoo-pay-web-message:		serverport=8006   connector_port_HTTP/1.1=8089    connector_port_AJP/1.3=8010
+
+roncoo-pay-web-boss：		serverport=8004   connector_port_HTTP/1.1=8090    connector_port_AJP/1.3=8011
+
+roncoo-pay-web-gateway：	serverport=8003   connector_port_HTTP/1.1=8091    connector_port_AJP/1.3=8012
+
+roncoo-pay-web-sample-shop	serverport=8007   connector_port_HTTP/1.1=8092    connector_port_AJP/1.3=8013
 
 
 
