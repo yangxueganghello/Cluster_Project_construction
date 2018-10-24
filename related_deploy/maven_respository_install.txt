@@ -1,0 +1,7 @@
+
+
+wget http://mirrors.shu.edu.cn/apache/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+
+
+
+https://blog.csdn.net/sopp_li/article/details/80446932

@@ -112,4 +112,15 @@ roncoo-pay-web-sample-shop	serverport=8007   connector_port_HTTP/1.1=8092    con
 
 
 
+相关服务程序配置
+
+192.168.177.129
+
+
+jenkins访问地址:
+http://192.168.177.132:8080/jenkins/
+
+
+
+
 

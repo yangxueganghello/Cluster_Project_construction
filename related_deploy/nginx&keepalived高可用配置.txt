@@ -1,0 +1,12 @@
+reference address:
+
+
+https://blog.csdn.net/l1028386804/article/details/72801492
+
+
+
+
+
+VIP	IP	主机名	Nginx端口	默认主从
+192.168.177.120	192.168.177.128	  yangxuegang_master	88	MASTER
+192.168.177.120	192.168.177.132	  yangxuegang_slave	88	BACKUP

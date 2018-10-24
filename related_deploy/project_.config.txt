@@ -62,34 +62,56 @@ roncoo-pay-web-boss
 
 
 <!-- common -->
-		<module>roncoo-pay</module>
-		<module>roncoo-pay-common-core</module>
-		<module>roncoo-pay-common-config</module>
+		
+<module>roncoo-pay</module>
+		
+<module>roncoo-pay-common-core</module>
+		
+<module>roncoo-pay-common-config</module>
 		
 		<!-- service-api -->
-		<module>roncoo-pay-service-account-api</module>
-		<module>roncoo-pay-service-accounting-api</module>
-		<module>roncoo-pay-service-message-api</module>
-		<module>roncoo-pay-service-notify-api</module>
-		<module>roncoo-pay-service-trade-api</module>
-		<module>roncoo-pay-service-user-api</module>
+		
+<module>roncoo-pay-service-account-api</module>
+		
+<module>roncoo-pay-service-accounting-api</module>
+		
+<module>roncoo-pay-service-message-api</module>
+		
+<module>roncoo-pay-service-notify-api</module>
+		
+<module>roncoo-pay-service-trade-api</module>
+		
+<module>roncoo-pay-service-user-api</module>
 		
 		<!-- service -->
-		<module>roncoo-pay-service-account</module>
-		<module>roncoo-pay-service-accounting</module>
-		<module>roncoo-pay-service-message</module>
-		<module>roncoo-pay-service-notify</module>
-		<module>roncoo-pay-service-trade</module>
-		<module>roncoo-pay-service-user</module>
+		
+<module>roncoo-pay-service-account</module>
+		
+<module>roncoo-pay-service-accounting</module>
+		
+<module>roncoo-pay-service-message</module>
+		
+<module>roncoo-pay-service-notify</module>
+		
+<module>roncoo-pay-service-trade</module>
+		
+<module>roncoo-pay-service-user</module>
 		
 		<!-- app -->
-		<module>roncoo-pay-app-message</module>
-		<module>roncoo-pay-app-notify</module>
-		<module>roncoo-pay-app-queue</module>
+		
+<module>roncoo-pay-app-message</module>
+		
+<module>roncoo-pay-app-notify</module>
+		
+<module>roncoo-pay-app-queue</module>
 		
 		<!-- web -->
-		<module>roncoo-pay-web-boss</module>
-		<module>roncoo-pay-web-gateway</module>
-		<module>roncoo-pay-web-message</module>
-		<module>roncoo-pay-web-sample-shop</mod
+		
+<module>roncoo-pay-web-boss</module>
+		
+<module>roncoo-pay-web-gateway</module>
+		
+<module>roncoo-pay-web-message</module>
+		
+<module>roncoo-pay-web-sample-shop</mod
 

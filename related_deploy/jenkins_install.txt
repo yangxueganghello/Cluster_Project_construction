@@ -1,0 +1,36 @@
+reference address:
+
+
+需要jdk  maven本地仓库
+
+https://www.cnblogs.com/yjmyzz/p/jenkins-tutorial-part-1.html
+
+
+
+
+使用的tomcat编码格式需要修改
+<Connector port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" URIEcoding="UTF-8"/>
+
+
+基于并发构建耗内存
+
+设置hudson-tomcat的内存
+#vim  ./tomcat/bin/catalina.sh 
+
+#!/bin/sh 下面增加：
+JAVA_OPTS='-Xms512m -Xmx2048m'
+
+
+
+
+插件安装：
+publish_over_ssh
+SSH Slaves plugin
+Maven Integration plugin
+
+
+
+
+https://blog.csdn.net/xlgen157387/article/details/50353317
