@@ -1,0 +1,12 @@
+reference address:
+
+三种方式对比：
+https://blog.csdn.net/omelon1/article/details/78752828
+
+
+https://blog.csdn.net/coolcoffee168/article/details/52582770
+
+
+
+禁止ip地址  直接访问
+https://blog.csdn.net/java7star/article/details/51942811
