@@ -137,7 +137,7 @@ public class MainTest {
         paramMap.put("notifyUrl","http://192.168.1.162:8083/roncoo-pay-web-sample-shop/roncooPayNotify/notify");// 后台消息通知Url
         paramMap.put("remark"," 支付备注"); // 支付备注
 
-        ////////////扩展字段,选填,原值返回///////////
+ /*        ////////////扩展字段,选填,原值返回///////////
         String field1 = "扩展字段1"; // 扩展字段1
         paramMap.put("field1",field1);
         String field2 = "扩展字段2"; // 扩展字段2
@@ -148,7 +148,7 @@ public class MainTest {
         paramMap.put("field4",field4);
         String field5 = "扩展字段5"; // 扩展字段5
         paramMap.put("field5",field5);
-
+*/
         /////签名及生成请求API的方法///
         String sign = MerchantApiUtil.getSign(paramMap, paySecret);
         paramMap.put("sign",sign);
