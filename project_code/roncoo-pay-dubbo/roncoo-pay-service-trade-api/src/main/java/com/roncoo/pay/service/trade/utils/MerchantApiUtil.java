@@ -80,6 +80,7 @@ public class MerchantApiUtil {
         }
 
         String sign = getSign(paramMap, paySecret);
+         System.out.println("根据参数:paramMap:"+paramMap+"     paySecret:"+paySecret+"     signStr:"+signStr+"    算出来的的   sign：");
         if(signStr.equals(sign)){
             return true;
         }else{
