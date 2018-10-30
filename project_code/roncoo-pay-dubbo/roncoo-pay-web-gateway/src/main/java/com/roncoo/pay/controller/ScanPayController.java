@@ -117,7 +117,7 @@ public class ScanPayController extends BaseController {
         String field5 = getString_UrlDecode_UTF8("field5"); // 扩展字段5
         paramMap.put("field5",field5);
         
-        LOG.info("===>initPay paramMap:" + paramMap.toString());
+        LOG.info("===>initPay paramMap:" + paramMap.toString() + "	sign:"+sign);
 
         Date orderDate = DateUtils.parseDate(orderDateStr,"yyyyMMdd");
         Date orderTime = DateUtils.parseDate(orderTimeStr,"yyyyMMddHHmmss");
